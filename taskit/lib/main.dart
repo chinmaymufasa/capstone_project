@@ -23,7 +23,7 @@ class Home extends StatefulWidget{
 }
 
 class _HomeState extends State<Home> {
-   String googleApikey = "AIzaSyDl40SkHzE53E80vL3j7345mwSk-8Oh4GI";
+   String googleApikey = "";
   GoogleMapController? mapController; //contrller for Google map
   CameraPosition? cameraPosition;
   LatLng startLocation = LatLng(39.7285, -121.8375); 
